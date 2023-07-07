@@ -1,7 +1,36 @@
-body{
-    height: 100%;
+body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    padding-top: 51px;
+    border: black;
+    padding: inherit;
 }
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+    background-color: beige;
+    
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    background: burlywood;
+    color: white;
+    padding: 1rem;
+    border-style: dotted;
+  }
+  header.logo{
+    font-size: larger;
+  }
+
+  
+  
+  
