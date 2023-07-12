@@ -3,5 +3,7 @@
 }
 {
     [class*="col-"]
+    float:left
+    clear:both
 }
     
