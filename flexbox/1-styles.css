@@ -1,0 +1,12 @@
+.row{
+    display: flex;
+}
+{
+    [class*="col-"]
+    float:left
+    clear:both
+}
+<Style>
+.services {
+    class:secti
+}
